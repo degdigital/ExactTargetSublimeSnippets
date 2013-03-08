@@ -13,6 +13,7 @@ A collection of Sublime Text snippets for use with ExactTarget projects
 	<li>Email Friendly Media Query</li>
 	<li>Image</li>
 	<li>Linked Image</li>
+	<li>Bulletproof Button</li>
 	<li>Table</li>
 </ul>
 
