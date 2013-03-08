@@ -9,6 +9,7 @@ A collection of Sublime Text snippets for use with ExactTarget projects
 </ul>
 
 <ul>
+	<li>Email Friendly Media Query</li>
 	<li>Image</li>
 	<li>Linked Image</li>
 	<li>Table</li>
