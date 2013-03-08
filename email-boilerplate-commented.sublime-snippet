@@ -1,0 +1,114 @@
+<snippet>
+	<content><![CDATA[
+/****** WARNING: Using Comments Can Trip Up SPAM Filters. Please Use the Uncommented Version of the Boilerplate when doing a Build. ********/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--This is a great DOCTYPE to test with because it is used by Gmail and Hotmail. It is very important to test with and without
+a DOCTYPE because many clients strip it entirely - this effects paragraph margins & padding, centering, and box model padding. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css" media="screen">
+        /****** RESET STYLES ********/
+
+            body, p{margin:0; padding:0; margin-bottom:0; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+            img{line-height:100%; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+            a img{border: none;}
+            #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+            a, a:link{color:#2A5DB0; text-decoration: underline;} /* This is the embedded CSS link color for Gmail.  This will overwrite Hotmail and Yahoo Beta's embedded link colors and make it consistent with Gmail.  You must overwrite this color inline */
+
+        /****** END RESET ********/
+
+        /****** EMAIL CLIENT BUG FIXES - BEST NOT TO CHANGE THESE ********/
+
+            .ExternalClass {display: block !important; width:100%;} /* Fix For Hotmail Centering and Background Color Issue */
+            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } /* Forces Hotmail to display normal line spacing */
+            table td {border-collapse:collapse;} /* Fixes Outlook 07, 10, and Gmail td padding issue. */
+            sup{line-height:1; vertical-align:baseline;_vertical-align: bottom;position: relative;bottom: 1ex;font-size:11px !important;} /* Fix Line Height Rendering for Superscript */
+            span {color: inherit; border-bottom: none;} span:hover { background-color: transparent; } /* Fixes Yahoo! wrapping links with colors and dashed borders */
+
+        /****** END BUG FIXES ********/
+
+        /****** MOBILE STYLES ********/
+
+            /* Removes Auto Styling from Phone Numbers in iOS. */
+            a[href^="tel"], a[href^="sms"] {
+                        text-decoration: none;
+                        color: #000001; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+
+            /* Wrap numbers in a Span with the mobile_link class to add custom styling to numbers */
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+                        text-decoration: default;
+                        color: orange !important; /* or whatever your want */
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+
+            /* Remove Auto Styling of Addresses or Future Dates by wrapping them in a Span with the no-detect class */
+            .no-detect a{text-decoration: none; color: #000001; /* set text color */ pointer-events: auto; cursor: default;}
+
+        /****** END MOBILE STYLES ********/
+
+    </style>
+
+</head>
+
+<!-- Background Color is defaulted to white to avoid transparency issues with Gmail Themes. This can be changed but must be set to something. -->
+<body style="background: #fff;font-family:Arial, Helvetica, sans-serif; font-size:12px;">
+
+    <!-- Wrapper/Container Table: Wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+    <table id="backgroundTable" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td align="center" valign="top" style="background:#fff;" width="100%">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <!-- Set width of email on this level of table cells  -->
+                <td width="600">
+
+                    <!--INSERTING IMAGES-->
+                    <img src="full path to image" alt="Your alt text" width="x" height="x" style="display: block; border: 0;" />
+
+                    <!-- TEXT LINKS  -->
+                    <a href="http://www.google.com" style="color:#000" target="_blank" alias="Link Description: For Exact Target Tracking">Text Link Here</a>
+
+                    <!-- ORDERED AND UNORDERED LISTS: Outlook 2007/2010 Won't Render UL or OL Tags. You Must Use Tables -->
+                    <table cellpadding="2" cellspacing="2" border="0">
+                        <tr>
+                            <td valign="top">&bull;</td>
+                            <td>Test</td>
+                        </tr>
+                        <tr>
+                            <td valign="top">1.)</td>
+                            <td>Test</td>
+                        </tr>
+                    </table>
+
+                    <!-- INSERTING ADDRESSES WITH IOS FIX -->
+                    <span class="no-detect">
+                        %%member_busname%%<br />
+                        %%member_addr%% %%member_city%%, %%member_state%% %%member_postalcode%%
+                    </span>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+
+<!-- Exact Target tracking code -->
+<custom name="opencounter" type="tracking">
+
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>eplatecom</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

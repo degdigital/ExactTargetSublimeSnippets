@@ -6,6 +6,7 @@ A collection of Sublime Text snippets for use with ExactTarget projects
 <ul>
 	<li>Standard Boilerplate</li>
 	<li>Responsive Boilerplate</li>
+	<li>Standard Boilerplate Commented</li>
 </ul>
 
 <ul>
