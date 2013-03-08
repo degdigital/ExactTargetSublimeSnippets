@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+<!-- Exact Target tracking code -->
+<custom name="opencounter" type="tracking">
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>etracking</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
