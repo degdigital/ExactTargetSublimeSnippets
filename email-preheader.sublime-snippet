@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="300" align="left">
+        	$1
+        </td>
+        <td width="300" align="right">
+			<a href="%%view_email_url%%" alias="vawp">View as a webpage</a>
+        </td>
+    </tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>preheader</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

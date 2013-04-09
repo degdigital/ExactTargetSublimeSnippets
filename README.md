@@ -15,6 +15,7 @@ A collection of Sublime Text snippets for use with ExactTarget projects
 	<li>Linked Image</li>
 	<li>Bulletproof Button</li>
 	<li>Table</li>
+	<li>Preheader</li>
 </ul>
 
 <ul>
