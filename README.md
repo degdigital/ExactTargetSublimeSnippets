@@ -4,22 +4,21 @@ ExactTarget Sublime Text Snippets
 A collection of Sublime Text snippets for use with ExactTarget projects
 
 <ul>
-	<li>Standard Boilerplate</li>
-	<li>Responsive Boilerplate</li>
-	<li>Standard Boilerplate Commented</li>
+	<li>Standard Boilerplate (eplate)</li>
+	<li>Responsive Boilerplate (eplate)</li>
+	<li>Standard Boilerplate Commented (eplatecom)</li>
 </ul>
 
 <ul>
-	<li>Email Friendly Media Query</li>
-	<li>Image</li>
-	<li>Linked Image</li>
-	<li>Bulletproof Button</li>
-	<li>Table</li>
-	<li>Preheader</li>
+	<li>Image (eimg)</li>
+	<li>Linked Image (eaimg)</li>
+	<li>Bulletproof Button (bbutton)</li>
+	<li>Table (etable)</li>
+	<li>Preheader (epreheader)</li>
 </ul>
 
 <ul>
-	<li>Content Area</li>
-	<li>Busname</li>
-	<li>Tracking</li>
+	<li>Content Area (content)</li>
+	<li>Busname (busname)</li>
+	<li>Tracking (etracking)</li>
 </ul>
